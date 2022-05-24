@@ -1,0 +1,142 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  background-color: black;
+  opacity: .8;
+}
+
+/* Nav Menu */
+.header {
+  color: white;
+  margin: 10px;
+  height: 69px;
+  background-color: rgba(0,0,0,.5);
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  width: 100%;
+  }
+  
+.header ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  }
+
+.header li{
+  display: inline-flex;
+  margin-right: 20px;
+  text-decoration: underline;
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  text-align: center;
+}
+
+
+
+/* Our Mission */
+#container_1 {
+  background-image: url('./logos/background.jpg');
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: none;
+  
+}
+#our_mission {
+  color: white;
+background-color: rgba(0,0,0,1);
+  width: 1200px;
+  height: 100px;
+ display: inline-flex;
+ justify-content:center;
+ align-items: center;
+ flex-direction: column;
+ line-height: 0px;
+}
+
+
+
+/* TEA OF THE MONTH */
+.tea_of_month {
+  margin-bottom: -30px;
+}
+
+#tea_heading {
+  display: block;
+  margin-bottom: -29px;
+  margin-top: 30px;
+}
+
+#container_2 {
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: center;
+  width: 1000px;
+  margin-bottom: 40px;
+ 
+}
+
+.img_text {
+  display: flex;
+    flex-direction: column;
+  margin: 15px;
+
+    
+}
+
+.img {
+  height: 200px;
+  width: 300px;
+  margin: 10px auto;
+}
+
+
+
+/* LOCATIONS */
+#container_3 {
+  background-image: url(./logos/locations.webp);
+  background-size: 100%;
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap:wrap ;
+}
+.locations {
+  width:1200px ;
+}
+.boxes {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  opacity: 1;
+}
+
+/* CONTACT US */
+
+.container_4 {
+  height: 200px;
+}
+
+
+
+
+
+
+
+footer {
+  color: white;
+  margin: 20px;
+}
